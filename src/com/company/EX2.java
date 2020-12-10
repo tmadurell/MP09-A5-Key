@@ -4,7 +4,7 @@ import java.io.IOException;
 import java.util.Scanner;
 
 public class EX2 {
-    public void mostrar() throws IOException {
+    public void mostrar() throws Exception {
         Scanner scanner = new Scanner(System.in);
         int opcio;
 
@@ -14,11 +14,11 @@ public class EX2 {
             System.out.println("");
             System.out.println("---------------------------------------------------------");
             System.out.println("MP09-UF1 A5 Keystore,KeyPair & WrappedKey:");
-            System.out.println(" 2.Clau embolcallada (1.2.3)");
+            System.out.println(" 2.Clau embolcallada (1.2.3)\n");
             System.out.println("    1.Implementeu dels apunts els mètodes encryptWrappedData i decryptWrappedData, i comenteu el codi identificant\n     els elements de la imatge (és a dir, posar el text de dins els requadres en el tros de codi que correspongui):");
             System.out.println("    2.Genereu un parell de claus (KeyPair) i proveu de xifrar i desxifrar un text amb clau embolcallada");
-            System.out.println("3.Enrere");
-            System.out.println("4.Sortir");
+            System.out.println("    3.Enrere");
+            System.out.println("    4.Sortir");
             System.out.println("---------------------------------------------------------");
             System.out.print("Escriu aquí: ");
 

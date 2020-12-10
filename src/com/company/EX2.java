@@ -1,6 +1,5 @@
 package com.company;
 
-import java.io.IOException;
 import java.util.Scanner;
 
 public class EX2 {
@@ -28,7 +27,7 @@ public class EX2 {
 
             switch (opcio) {
                 case 1:
-                    new EX2_1().mostrar();
+                    System.out.println("Exercici explicat pero no funcional, per més informació cerca EX2_2");
                     break;
                 case 2:
                     new EX2_2().mostrar();

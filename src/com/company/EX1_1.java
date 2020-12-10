@@ -1,6 +1,5 @@
 package com.company;
 
-import java.io.IOException;
 import java.security.KeyPair;
 import java.security.PrivateKey;
 import java.security.PublicKey;

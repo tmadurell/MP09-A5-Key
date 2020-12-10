@@ -5,7 +5,6 @@ import java.util.Enumeration;
 
 public class EX1_2 {
     public void mostrar() throws Exception {
-
         System.out.println("Exercici 1.2.");
         System.out.println("i. Fés la lectura d’un dels keystore que tinguis al teu sistema i extreu-ne la següent informació:\n");
 

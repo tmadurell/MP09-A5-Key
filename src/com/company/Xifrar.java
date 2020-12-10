@@ -101,7 +101,7 @@ public class Xifrar {
 
     public static PublicKey getPublicKey(KeyStore ks, String alias, String pwMyKey) throws CertificateException, IOException, NoSuchAlgorithmException, UnrecoverableKeyException, KeyStoreException {
 
-        FileInputStream f = new FileInputStream("/home/naomi/.keystore");
+        FileInputStream f = new FileInputStream("/home/dam2a/.keystore");
 
         ks.load(f, pwMyKey.toCharArray());
         Key key = ks.getKey(alias, pwMyKey.toCharArray());
